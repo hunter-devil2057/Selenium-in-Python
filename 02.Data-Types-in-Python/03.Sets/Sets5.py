@@ -1,0 +1,13 @@
+my_set = {11, 9, 26, 34, 53}
+xyz = my_set.copy()
+print(xyz)
+my_set.pop()
+print(my_set)
+my_set.pop()
+print(my_set)
+my_set.add(90)
+print(my_set)
+my_set.discard(11)
+print(my_set)
+my_set.clear()
+print(my_set)
